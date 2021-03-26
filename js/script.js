@@ -16,7 +16,9 @@ var app = new Vue (
         this.comix.splice(index,1);
       },
       addTitle: function(){
-        this.comix.push(this.userTitle);
+        if(this.userTitle != "") {
+          this.comix.push(this.userTitle);
+        }
       }
     }
   }
