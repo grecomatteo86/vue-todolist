@@ -22,7 +22,7 @@ var app = new Vue (
         }
       },
       submit: function () {
-
+        alert();
       }
     }
   }
