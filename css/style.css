@@ -57,6 +57,9 @@ h1,.little_title {
   color: yellow;
   padding: 5px;
 }
+.little_title{
+  text-transform: capitalize;
+}
 .input_container{
   padding-left:50px;
 }
