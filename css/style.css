@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Dela Gothic One', cursive;
+}
+.wrapper{
+  max-width: 1000px;
+  background-color: red;
+  margin: auto;
+  text-align: center;
+}
+
+.main_title{
+  font-size: 100px;
+  color:yellow;
+  text-shadow: 12px -13px 0px black;
+  padding-top: 30px;
+}
+.second_title{
+  color: red;
+  background-color: black;
+  font-size: 30px;
+  width: 35%;
+  margin: auto;
+}
+.text_up{
+  text-transform: uppercase;
+}
