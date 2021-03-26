@@ -5,11 +5,16 @@
 }
 body{
   font-family: 'Dela Gothic One', cursive;
+  background-image: url('http://www.sfondilandia.it/1024/DylanDog03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .wrapper{
-  max-width: 1000px;
-  background-color: red;
+  max-width: 980px;
+  background-color: rgba(255, 0, 0, 0.5);
   margin: auto;
+  border-radius: 20px;
 }
 
 .main_title{
