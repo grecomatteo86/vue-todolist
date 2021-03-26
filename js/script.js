@@ -8,6 +8,11 @@ var app = new Vue (
         'Canale 666',
         'Le notti della luna piena'
       ]
+    },
+    methods:{
+      deleteItem: function(index){
+        this.comix.splice(index,1);
+      }
     }
   }
 );
