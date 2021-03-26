@@ -60,12 +60,12 @@ h1,.little_title {
 .input_container{
   padding-left:50px;
 }
-.text_imput{
+.text_input{
   background-color: transparent;
   color: yellow;
   border: none;
   border-radius: 3px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-shadow:
       1px 1px 0 #000,
     -1px -1px 0 #000,
@@ -73,12 +73,12 @@ h1,.little_title {
      -1px 1px 0 #000,
       1px 1px 0 #000;
 }
-.text_imput:focus {
+.text_input:focus {
   outline: none;
 }
 ::placeholder{
   color: yellow;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-shadow:
       1px 1px 0 #000,
     -1px -1px 0 #000,
