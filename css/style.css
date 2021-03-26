@@ -12,9 +12,7 @@ body{
 
 .wrapper{
   max-width: 980px;
-  background-color: rgba(255, 0, 0, 0.5);
   margin: auto;
-  border-radius: 20px;
 }
 
 .main_title{
@@ -23,6 +21,16 @@ body{
   text-shadow: 12px -13px 0px black;
   padding-top: 30px;
   text-align: center;
+}
+h1,.little_title {
+   -webkit-text-stroke: 1px black;
+   color: yellow;
+   text-shadow:
+       1px 1px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 .second_title{
   color: red;
@@ -44,6 +52,9 @@ body{
 }
 .list{
   flex-basis: 60%;
+}
+.list_element{
+  color: yellow;
 }
 .input_container{
   padding-left:50px;
@@ -75,10 +86,10 @@ button:focus {
 .got{
   position: absolute;
   right: 0;
-  color: red;
-  background-color: black;
-  border: 2px solid red;
+  color: black;
+  background-color: red;
   font-size: 15px;
   padding: 0 10px;
   cursor: pointer;
+  margin: 5px;
 }
