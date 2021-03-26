@@ -20,9 +20,6 @@ var app = new Vue (
           this.comix.push(this.userTitle);
           this.userTitle = "";
         }
-      },
-      submit: function () {
-        alert();
       }
     }
   }

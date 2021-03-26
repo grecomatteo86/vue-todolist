@@ -26,7 +26,7 @@
 
     <div class="list_container">
 
-      <ul class="list">
+      <ul v-if="comix.length > 0" class="list">
         <li class="list_element" v-for="(item,index) in comix">{{item}}<span @click="deleteItem(index)" class="got">ce l'ho!</span></li>
       </ul>
 
