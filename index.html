@@ -34,7 +34,7 @@
 
         <input v-model="userTitle" class="text_imput" type="text" name="" value="" placeholder="inserisci titolo">
 
-        <button @click="addTitle" type="button" name="button">Mi manca!</button>
+        <button v-on:keyup.enter="submit" @click="addTitle" type="button" name="button">Mi manca!</button>
 
       </div>
 

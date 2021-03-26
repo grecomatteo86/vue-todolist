@@ -18,7 +18,11 @@ var app = new Vue (
       addTitle: function(){
         if(this.userTitle != "") {
           this.comix.push(this.userTitle);
+          this.userTitle = "";
         }
+      },
+      submit: function () {
+
       }
     }
   }
