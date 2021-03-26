@@ -10,7 +10,6 @@ body{
   max-width: 1000px;
   background-color: red;
   margin: auto;
-  text-align: center;
 }
 
 .main_title{
@@ -18,6 +17,7 @@ body{
   color:yellow;
   text-shadow: 12px -13px 0px black;
   padding-top: 30px;
+  text-align: center;
 }
 .second_title{
   color: red;
@@ -25,7 +25,24 @@ body{
   font-size: 30px;
   width: 35%;
   margin: auto;
+  text-align: center;
 }
 .text_up{
   text-transform: uppercase;
+}
+.list_container{
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+}
+.input_container{
+  padding-left:50px;
+}
+button{
+  display: block;
+  margin-top: 10px;
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 3px;
 }
