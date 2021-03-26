@@ -57,7 +57,11 @@ button{
   padding: 5px;
   border-radius: 3px;
   font-size: 20px;
-  box-shadow: 5px -5px 0px black
+  box-shadow: 5px -5px 0px black;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
 }
 .list_element{
   position: relative;
