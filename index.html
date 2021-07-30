@@ -4,47 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- google_font -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
-  <!-- /google_font -->
-  <!-- vue_dev_version_cdn -->
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-  <!-- /vue_dev_version_cdn -->
-  <!-- stylesheet -->
   <link rel="stylesheet" href="css/style.css">
-  <!-- /stylesheet -->
   <title>Vue Todo List</title>
 </head>
 <body>
-
   <div id="app" class="wrapper">
-
-      <h1 class="main_title text_up"> Dylan Dog</h1>
-
+      <h1 class="main_title text_up">Dylan Dog</h1>
       <h2 class="second_title text_up">la mancolista</h2>
-
       <div class="list_container">
-
         <ul v-if="comix.length > 0" class="list">
-          <li class="list_element" v-for="(item,index) in comix"><span class="little_title highlight">{{item}}</span><span @click="deleteItem(index)" class="got">ce l'ho!</span></li>
+          <li class="list_element" v-for="(item,index) in comix"><span class="little_title highlight" v-bind:class="highlight">{{item}}</span><span @click="deleteItem(index)" class="got">ce l'ho!</span></li>
         </ul>
-
         <div class="input_container">
-
           <input v-on:keyup.13="addTitle" v-model="userTitle" class="text_input" type="text" name="" value="" placeholder="inserisci titolo">
-
           <button @click="addTitle" type="button" name="button">Mi manca!</button>
-
         </div>
-
-
       </div>
-
-
     </div>
-
-
   <script src="js/script.js" charset="utf-8"></script>
 </body>
 </html>
